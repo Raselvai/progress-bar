@@ -1,0 +1,91 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: linear-gradient(to right, #000000 0%, #e74c3c 51%, #000000 100%);
+	color: #67687a;
+	font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+.progress-wrapper {
+	 padding: 80px 0;
+	 height: 100vh;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.progress-box {
+	 width: 503px;
+	 padding: 30px 40px;
+	 border-radius: 5px;
+	 background: #ffffff;
+	 margin: 0 auto;
+}
+
+.progress-box .progress {
+    background: #d1e2fc;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.progress-item h2, 
+.progress-item span {
+	 font-size: 18px;
+	 color: #2e2d2d;
+	 font-weight: 700;
+	 margin: 15px 0;
+}
+
+.progress-bar {
+    background: #6d18ef;
+}
